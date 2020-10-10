@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import aex from './aex.png'
 import idp from './idp.jpeg'
 import './App.css';
