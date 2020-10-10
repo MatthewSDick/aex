@@ -2,9 +2,11 @@ import React from 'react';
 import aex from './aex.png'
 import idp from './idp.jpeg'
 import './App.css';
+import Header from './Components/Header'
 
 function App() {
   return (
+    <>    
     <div className="App">
       <div class="main">
         <div><h1>Future home of Antietam Exchange Club</h1></div>
@@ -13,6 +15,7 @@ function App() {
         <div><img class="idp" src={idp} alt="logo" /></div>
       </div>
     </div>
+    </>
   );
 }
 
