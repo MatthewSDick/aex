@@ -6,11 +6,12 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1>Future home of Antietam Exchange Club</h1>
-      <header className="App-header">
-        <img src={aex} alt="logo" />
-        <img src={idp} alt="logo" />
-      </header>
+      <div class="main">
+        <div><h1>Future home of Antietam Exchange Club</h1></div>
+        <div><img src={aex} alt="logo" /></div>
+        <div><h1>Designed by Iconic Digital Palette</h1></div>
+        <div><img class="idp" src={idp} alt="logo" /></div>
+      </div>
     </div>
   );
 }
