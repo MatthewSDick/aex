@@ -50,7 +50,6 @@ function App() {
 
       <div class="main">
         <br></br>
-        <h3>I need content for this page</h3>
         <div><h1>Future home of Antietam Exchange Club</h1></div>
         <div><img src={aex} alt="logo" /></div>
         {/* <div><h1>Designed by Iconic Digital Palette</h1></div>
