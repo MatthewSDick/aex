@@ -7,6 +7,7 @@ import Charities from './Components/Charities'
 import Projects from './Components/Projects'
 import Footer from './Components/Footer';
 import Navsbar from './Components/Navsbar'
+import Home from './Components/Home'
 import {
   BrowserRouter as Router,
   Switch,
@@ -33,6 +34,9 @@ function App() {
           </Route>
           <Route path="/Charities" component={Charities}>
             <Charities />
+          </Route>
+          <Route path="/Home" component={Home}>
+            <Home />
           </Route>
           {/* <Route path="/">
             <Home />
